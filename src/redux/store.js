@@ -1,5 +1,5 @@
-import {craeteStore} from 'redux'
+import {createStore} from 'redux'
 import cakeReducer from './cake/cakeReducer'
 
-const store=craeteStore(cakeReducer)
+const store=createStore(cakeReducer)
 export default store
